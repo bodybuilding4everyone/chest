@@ -1,0 +1,46 @@
+header{
+	background-image: url(../c.jpg);
+	height: 50vh;
+	background-size: 60%;
+	background-position: center;
+}
+
+.title{
+	position: absolute;
+	bottom: 40%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: white;
+	font-size:70px;
+}
+
+ul{
+	list-style-type: none;
+	width: 20%;
+	float: right;
+	text-align: center;
+}
+
+ul li{
+	float: right;
+	display: block;
+	padding: 8px;
+	width: 100%;
+}
+
+
+ul li a{
+
+	background-color: #deeba6;
+	color: black;
+	font-size: x-large;
+
+
+}
+ul li a:hover{
+	background-color: white;
+	color: #000;
+}
